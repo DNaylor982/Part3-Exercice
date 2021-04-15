@@ -1,0 +1,58 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat (4, 1/4);
+  /*permet de rendre la page responsive */
+  grid-template-rows: 120px 50px 60px;
+  gap: 20px;
+}
+
+#grid div {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px 0px 0px 20px;
+}
+
+#one {
+  background-color: #b03532;
+
+}
+
+#two {
+  background-color: #33a8a5;
+}
+
+#three {
+  background-color: #30997a;
+}
+
+#four {
+  background-color: #6a478f;
+}
+
+#five {
+  background-color: #da6f2b;
+}
+
+#six {
+  grid-column: 4/5; /*pour indiquer le positionnement de l'élément on utilise le "/" */
+  grid-row: 2/3;
+  background-color: #3d8bb1;
+}
+
+#seven {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-color: #e03f3f;
+}
+
+#eight {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  background-color: #59a627;
+}
+
+#nine {
+  grid-column: 4/5;
+  grid-row: 3/4;
+  background-color: #4464a1;
+}
